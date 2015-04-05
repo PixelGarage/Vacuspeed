@@ -1,0 +1,12 @@
+Specific Project Details:
+
+Changes in Modules (Patches)
+============================
+1)
+
+
+Locked Modules (no update)
+==========================
+1)
+
+Sonst alle Module ok.

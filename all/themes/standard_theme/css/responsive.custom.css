@@ -1,0 +1,44 @@
+/*
+ * responsive.custom.css is for custom media queries that are not set via the
+ * theme settings, such as cascading media queries.
+ *
+ * By default all the other responsive stylesheets used in Adaptivetheme use a
+ * "stacking method", however cascading media queries use a waterfall method so
+ * you can leverage the cascade and inheritance for all browsers that support
+ * media queries, regardless of screen size.
+ *
+ * @SEE http://zomigi.com/blog/essential-considerations-for-crafting-quality-media-queries/#mq-overlap-stack
+ *
+ * NOTE: this file loads by default, to disable got to your theme settings and
+ * look under the "CSS" settings tab.
+ */
+@media only screen and (min-width: 40em) { /* >= 640 px*/
+    /* =============================================================================
+     *    User login / register / password pages
+     * ========================================================================== */
+    .page-user .create-account {
+        width: 50%;
+        border: none;
+        padding: 0 0 0 2em;
+    }
+    .page-user #user_login_form {
+        width: 50%;
+        border: none;
+        padding: 0 2em 0 0;
+        border-right: 1px solid #444;
+    }
+    .page-user a.login-register {
+        right: 2em;
+    }
+
+}
+
+@media only screen and (min-width: 48.0625em) { /* > 768 px*/
+    /* =============================================================================
+     *    Tiling page
+     * ========================================================================== */
+    .page-layout-tiling .at-panel > .region-two-50-second > .region-inner {
+        margin-left: 1em;
+    }
+
+}
