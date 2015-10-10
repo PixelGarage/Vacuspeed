@@ -6,4 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    '' => array($vendorDir . '/aklump/loft_data_grids/src'),
 );

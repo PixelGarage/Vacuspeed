@@ -91,7 +91,5 @@ class DrupalTableExporter extends Exporter implements ExporterInterface {
     }
 
     $this->output = drupal_render($build);
-
-    print '<pre>'; print __FILE__ . '/' . __FUNCTION__ . "():\n"; print_r($this->output); print '</pre>'; die;
   }
 }

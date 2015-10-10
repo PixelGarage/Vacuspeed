@@ -9,11 +9,10 @@
 use AKlump\LoftDataGrids\ExportDataInterface;
 
 /**
- * Implements hook_init().
+ * Implements hook_boot().
  */
-function loft_data_grids_init() {
-  require_once drupal_get_path('module', 'loft_data_grids') . '/vendor/autoload.php';
-  module_load_include('php', 'loft_data_grids', 'includes/DrupalTableExporter');
+function loft_data_grids_boot() {
+  require_once dirname(__FILE__) . '/vendor/autoload.php';
 }
 
 /**
