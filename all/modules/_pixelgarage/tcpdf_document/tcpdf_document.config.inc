@@ -74,7 +74,7 @@ define ('PDF_HEADER_LOGO_WIDTH', 30);
 /**
  * Cache directory for temporary files (full path).
  */
-define ('K_PATH_CACHE', drupal_realpath('temporary://tcpdf/cache'));
+define ('K_PATH_CACHE', drupal_realpath('temporary://'));
 
 /**
  * Generic name for a blank image.
